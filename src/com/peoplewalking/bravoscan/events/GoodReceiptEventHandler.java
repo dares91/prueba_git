@@ -21,6 +21,10 @@ public class GoodReceiptEventHandler extends EntityPersistenceEventObserver {
 		return entities;
 	}
 
+	/**
+		Test comment: Write method javadoc
+	**/
+
 	public void onSave(@Observes EntityNewEvent eventNew) {
 		// Validamos el evento
 		if (!isValidEvent(eventNew)) {
