@@ -29,13 +29,14 @@ public class ShipmentInOut implements WebService {
     public void doDelete(String path, HttpServletRequest request, HttpServletResponse response)
 	    throws Exception {
 	// TODO Auto-generated method stub
+	/*Probando modificar fichero .. agregando comentarios*/
     }
 
     @Override
     public void doGet(String path, HttpServletRequest request, HttpServletResponse response)
 	    throws Exception {
 	final Logger log = Logger.getLogger(ShipmentInOut.class);
-
+  /*Probando modificar fichero .. agregando comentarios*/
 	try {
 	    // 1 - do some checking of parameters
 	    final String businessPartner = request.getParameter("businessPartner");
